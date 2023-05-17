@@ -1,0 +1,113 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "creator",
+         "patterns": ["what is the name of your developers", "what is the name of your creators", "what is the name of the developers", "what is the name of the creators", "who created you", "your developers", "your creators", "who are your developers", "developers", "you are made by", "you are made by whom", "who created you", "who create you", "creators", "who made you", "who designed you"],
+         "responses": ["I was developed by Vun Yi Chong"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What help you provide?", "How you can be helpful?"],
+         "responses": ["I can guide you through food menu, online reservation, online delivery and person to be contacted related queries","I can provide support related to following problems food menu query,reservation related query,order delivery query."],
+         "context": [""]
+        },
+        {"tag": "bestSeller",
+         "patterns": ["What is the best selling food?"],
+         "responses": ["Salmon with Mango Salsa and Cilantro Rice"],
+         "context": [""]
+        },
+        {"tag": "name",
+         "patterns": ["what is your name?","what should I call you?", "name", "your name", "do you have a name", "what are you called", "what is your name", "what should I call you", "whats your name?", "what are you", "who are you", "who is this", "what am i chatting to", "who am i taking to", "what are you"],
+         "responses": ["I'm Rem","Hey!I'm Rem"],
+         "context": [""]
+        },
+         {"tag": "about",
+         "patterns": ["how you doing?","how are you"],
+         "responses": ["Thanks For Asking!How can I help you?"],
+         "context": [""]
+        },
+        {"tag": "hours",
+         "patterns": ["Opening hours of the restaurant?","when does the restaurant open","restaurant opening time", "working days", "when are you guys open", "what are your hours", "hours of operation", "what about restaurant timing", "is restaurant open on saturday", "tell something about resetaurant timing", "what is the restaurant hours", "when should i come to restaurant", "when can i go visit the restaurant", "what is the restaurant time", "restaurant timing", "timing restaurant"],
+         "responses": ["It is open everyday from 11:00am-9:00pm"],
+         "context": [""]
+        },
+        {"tag": "number",
+         "patterns": ["more info", "contact info", "how to contact restaurant", "restaurant telephone number", "restaurant number", "What is your contact no", "Contact number?", "how to call you", "restaurant phone no?", "how can i contact you", "Can i get your phone number", "how can i call you", "phone number", "phone no", "call"],
+         "responses": ["You can contact us at 012-345 6789"],
+         "context": [""]
+        },
+        {"tag": "location",
+         "patterns": ["where is the restaurant located", "restaurant is located at", "where is restaurant", "where is restaurant located", "address of restaurant", "how to reach restaurant", "restaurant location", "restaurant address", "wheres the restaurant", "how can I reach restaurant", "whats is the restaurant address", "what is the address of restaurant", "address", "location"],
+         "responses": ["Jln Broga, 43500 Semenyih, Selangor"],
+         "context": [""]
+        },
+        {"tag": "event",
+         "patterns": ["events organised", "list of events", "list of events organised in restaurant", "list of events conducted in restaurant", "What events are conducted in restaurant", "Are there any event held at restaurant", "Events?", "functions", "what are the events", "tell me about events", "what about events"],
+         "responses": ["birthday, parties, gathering and various other event conducted in the restaurant."],
+         "context": [""]
+        },
+        {"tag": "facilities",
+         "patterns": ["What facilities restaurant provide", "restaurant facility", "What are restaurant facilities", "facilities", "facilities provided"],
+         "responses": ["air conditioning, Microphone, Smoking are, Wifi, Chairs, Tables, TV screen, Tea and Coffee"],
+         "context": [""]
+        },
+        {"tag": "random",
+         "patterns": ["I love you", "Will you marry me", "Do you love me"],
+         "responses": ["I am not program for this please ask appropriate query"],
+         "context": [""]
+        },
+        {"tag": "swear",
+         "patterns": ["fuck", "bitch", "shut up", "hell", "stupid", "idiot", "dumb ass", "asshole", "fucker"],
+         "responses": ["please use appropriate language", "Maintaining decency would be appreciated"],
+         "context": [""]
+        },
+        {"tag": "salutation",
+         "patterns": ["okk", "okie", "nice work", "well done", "good job", "thanks for the help", "Thank You", "its ok", "Thanks", "k", "ok", "okay"],
+         "responses": ["I am glad I helped you", "welcome, anything else i can assist you with?"],
+         "context": [""]
+        },
+        {"tag": "task",
+         "patterns": ["what can you do", "what are the thing you can do", "things you can do", "what can u do for me", "how u can help me", "why i should use you"],
+         "responses": ["I can answer to low-intermediate questions regarding restaurant", "You can ask me questions regarding restaurant, and i will try to answer them"],
+         "context": [""]
+        },
+        {"tag": "station",
+         "patterns":["nearest mrt station", "what is the nearest mrt station", "which mrt station is near", "closest mrt station", "which mrt station is closest", "nearby mrt stations", "mrt", "mrt station nearby"],
+         "responses":["Kajang mrt/ktm station"]
+        },
+        {"tag": "payments",
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+         "responses": ["We accept VISA, Mastercard and ewallet", "We accept most major credit cards and digital payment"]
+        },
+        {"tag": "reserved",
+         "patterns": ["I want to make a reservation", "Can I book a table?", "I would like to book a table.", "I would like to make a booking.", "I need to make a booking", "I would like to reserve a table.", "I would like to make a reservation.", "Do you allow booking?", "Please reserve a table for me."],
+         "responses": ["Sure! What date and time would you like to make a reservation?"]
+        },
+        {"tag": "menu",
+         "patterns": ["What food do you serve?","What is the menu?", "food menu", "food in restaurant", "Whats there on menu", "what is available in restaurant"],
+         "responses": ["Appetizers:\nA1\tBacon-Wrapped Dates with Balsamic Glaze\nA2\tPesto and Sundried Tomato Bruchetta\nA3\tSpinach and Artichoke Dip with Naan Bread\n\nMains:\nM1\tKorean BBQ Beef Tacos with Slaw\nM2\tChicken and Waffles with Spicy Maple Syrup\nM3\tSalmon with Mango Salsa and Cilantro Rice\n\nDesserts:\nD1\tChocolate Chip Cookie Skillet with Vanilla Ice Cream\nD2\tBerry and Mascarpone Tart\nD3\tMatcha Green Tea Tiramisu\n\nBeverages:\nB1\tMango Lassi\nB2\tRaspberry Lemonade\nB3\tPeach Bellini"]
+        },
+        {"tag": "delivery",
+         "patterns": ["I want to order delivery.", "Do you guys provide delivery?"],
+         "responses": ["Delivery service is available. Here is the menu. What food do you want us to deliver?"]
+        }
+   ]
+}

@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/v/Workspace/RestaurantChatBot/model.tflearn"
+all_model_checkpoint_paths: "/home/v/Workspace/RestaurantChatBot/model.tflearn"
